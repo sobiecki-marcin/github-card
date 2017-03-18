@@ -45,6 +45,7 @@ fetchProfile(username) {
   render() {
     return (
       <div>
+        <h2 className="header-message">Welcome to Github-card</h2>
          <section id="card">
            <SearchProfile fetchProfile={this.fetchProfile.bind(this)}/>
            <Profile data={this.state} />
